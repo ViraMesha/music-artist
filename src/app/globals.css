@@ -19,10 +19,10 @@ body {
 }
 
 .btn-sm {
-  @apply min-w-[146px] min-h-[50px];
+  @apply w-[146px] h-[50px];
 }
 .btn-lg {
-  @apply min-w-[160px] min-h-[54px];
+  @apply w-[160px] h-[54px];
 }
 
 .btn-accent {
