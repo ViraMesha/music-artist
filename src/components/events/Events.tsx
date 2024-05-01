@@ -1,4 +1,3 @@
-import { EventT } from "@/models/events/Event.type";
 import { EventBox } from "./EventBox";
 import { events } from "@/lib/data";
 
