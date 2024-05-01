@@ -1,14 +1,8 @@
 import { EventT } from "@/models/events/Event.type";
 import { EventBox } from "./EventBox";
+import { events } from "@/lib/data";
 
-const getEvents = async (): Promise<EventT[]> => {
-  const resp = await fetch("http://localhost:4000/events");
-  return resp.json();
-};
-
-export const Events = async () => {
-  const events: EventT[] = await getEvents();
-
+export const Events = () => {
   return (
     <section className="section" id="tours">
       <div className="container mx-auto">
