@@ -49,14 +49,14 @@ export const EventBox = ({ events }: Props) => {
               >
                 <div className="flex flex-col xl:flex-row items-center gap-x-4">
                   {/* day & month */}
-                  <div className="flex flex-col justify-center items-center leading-tight w-[80px] mb-4 xl:mb-0 ">
+                  <div className="flex-col flex-center leading-tight w-[80px] mb-4 xl:mb-0 ">
                     <p className="text-[44px] font-black text-accent">{day}</p>
                     <p className="text-[20px] font-extrabold">{month}</p>
                   </div>
                   {/* location */}
                   <div className="w-64 flex flex-col gap-y-2">
                     <div className="text-lg leading-none font-bold">{`${city}, ${country}`}</div>
-                    <div className="flex items-center gap-x-1 justify-center xl:justify-start">
+                    <div className="flex-center gap-x-1 xl:justify-start">
                       <div className="text-accent text-lg">
                         <RiMapPin2Fill />
                       </div>

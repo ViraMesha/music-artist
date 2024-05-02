@@ -1,0 +1,1 @@
+export { locationSequence } from "./locationSequence";
