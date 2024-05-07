@@ -6,3 +6,4 @@ export { Player } from "./Player";
 export { NavMobile } from "./NavMobile";
 export { Nav } from "./Nav";
 export { MenuBtn } from "./MenuBtn";
+export { Socials } from "./Socials";

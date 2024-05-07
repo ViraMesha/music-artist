@@ -6,7 +6,7 @@ import Image from "next/image";
 import { logoImg } from "@/utils";
 
 // components
-import { MenuBtn, Nav, NavMobile } from "./index";
+import { MenuBtn, Nav, NavMobile, Socials } from "./index";
 
 export const Header = () => {
   const [active, setActive] = useState(false);
@@ -51,7 +51,10 @@ export const Header = () => {
           <MenuBtn />
         </div>
         {/* socials */}
-        <div>social icons</div>
+        <Socials
+          containerStyles="flex text-[24px] gap-x-4"
+          iconStyles="hover:text-accent transition-all"
+        />
       </div>
     </header>
   );
