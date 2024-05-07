@@ -6,6 +6,7 @@ import bird from "@images/hero/bird.png";
 import microphone from "@images/hero/mic.svg";
 import dot from "@images/hero/dot.svg";
 import playerAvatar from "@images/player/avatar.png";
+import logo from "@images/header/logo.svg";
 
 export const singerImg = singer;
 export const singerHeroImg = singerHero;
@@ -15,3 +16,4 @@ export const birdImg = bird;
 export const microphoneImg = microphone;
 export const dotImg = dot;
 export const playerAvatarImg = playerAvatar;
+export const logoImg = logo;
