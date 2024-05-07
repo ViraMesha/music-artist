@@ -62,7 +62,7 @@ body {
 }
 
 .rap-container {
-  @apply !p-0;
+  @apply !p-0 !max-w-full;
 }
 
 .rap-container .rap-pp-button svg {
