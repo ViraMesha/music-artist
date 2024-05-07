@@ -5,6 +5,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { logoImg } from "@/utils";
 
+// components
+import { Nav, NavMobile } from "./index";
+
 export const Header = () => {
   const [active, setActive] = useState(false);
 
@@ -24,7 +27,7 @@ export const Header = () => {
 
   return (
     <header
-      className={`fixed z-50 w-full ${
+      className={`fixed z-50 w-full transition-all ${
         active ? "bg-[#030315] py-6" : "bg-transparent py-8"
       }`}
     >
@@ -37,9 +40,12 @@ export const Header = () => {
           <Image src={logoImg} alt="logo" fill className="object-contain" />
         </Link>
         {/* nav */}
-        <nav>nav</nav>
+        <Nav
+          containerStyles="hidden xl:flex items-center gap-x-8"
+          linkStyles=""
+        />
         {/* nav mobile */}
-        <nav>nav mobile</nav>
+        <NavMobile />
         {/* menu btn */}
         <div>menu btn</div>
         {/* socials */}

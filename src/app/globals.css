@@ -98,3 +98,9 @@ body {
 .rap-volume-controls {
   @apply !bg-primary/80;
 }
+
+/* active nav link */
+
+.active {
+  @apply border-b-2 border-accent;
+}

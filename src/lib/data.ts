@@ -294,3 +294,22 @@ const posts = [
       "Join us for an electrifying night of classic rock hits at Central Park! The lineup includes tribute bands for legendary rock icons.",
   },
 ];
+
+export const navLinks = [
+  {
+    path: "home",
+    name: "Home",
+  },
+  {
+    path: "tours",
+    name: "Tours",
+  },
+  {
+    path: "discography",
+    name: "Discography",
+  },
+  {
+    path: "contact",
+    name: "Contact",
+  },
+];
