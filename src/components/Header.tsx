@@ -6,7 +6,7 @@ import Image from "next/image";
 import { logoImg } from "@/utils";
 
 // components
-import { Nav, NavMobile } from "./index";
+import { MenuBtn, Nav, NavMobile } from "./index";
 
 export const Header = () => {
   const [active, setActive] = useState(false);
@@ -47,7 +47,9 @@ export const Header = () => {
         {/* nav mobile */}
         <NavMobile />
         {/* menu btn */}
-        <div>menu btn</div>
+        <div className="absolute right-7 top-9 z-10 xl:hidden">
+          <MenuBtn />
+        </div>
         {/* socials */}
         <div>social icons</div>
       </div>
