@@ -54,11 +54,11 @@ body {
 }
 
 .rap-container .rap-slider .rap-progress .rap-pin {
-  @apply !w-[14px] !h-[14px] !bg-white transition-all duration-300;
+  @apply !w-[14px] !h-[14px] !bg-white;
 }
 
 .rap-container .rap-slider .rap-progress .rap-pin:hover {
-  @apply scale-[1.2];
+  @apply scale-[1.2] transition-all duration-300;
 }
 
 .rap-container {
@@ -103,4 +103,38 @@ body {
 
 .active {
   @apply border-b-2 border-accent;
+}
+
+/* album slider */
+.album-slider .rap-container .rap-volume .rap-volume-controls {
+  @apply !bg-accent;
+}
+
+.album-slider .rap-container .rap-slider {
+  @apply !bg-primary/10;
+}
+
+.album-slider .rap-container .rap-slider .rap-progress {
+  @apply !bg-white;
+}
+.album-slider .rap-container .rap-pp-button svg {
+  @apply w-[12px];
+}
+.album-slider .rap-container .rap-volume .rap-volume-btn svg {
+  @apply w-[20px];
+}
+
+.album-player {
+  @apply !w-[110px] !min-w-0 text-center;
+}
+
+.album-player .rap-controls .rap-slider,
+.album-player .rap-controls .rap-total-time {
+  @apply hidden;
+}
+
+/* thumb slider */
+
+.thumb-slider .swiper-slide-thumb-active {
+  @apply border-2 border-accent overflow-hidden transition-all duration-700
 }

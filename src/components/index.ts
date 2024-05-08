@@ -7,3 +7,6 @@ export { NavMobile } from "./NavMobile";
 export { Nav } from "./Nav";
 export { MenuBtn } from "./MenuBtn";
 export { Socials } from "./Socials";
+export { Albums } from "./albums/Albums";
+export { AlbumSlider } from "./albums/AlbumSlider";
+export { Events } from "./events/Events";

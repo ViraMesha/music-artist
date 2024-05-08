@@ -1,5 +1,4 @@
-import { Hero, Player } from "@/components";
-import { Events } from "@/components/events/Events";
+import { Hero, Player, Events, Albums } from "@/components";
 
 export default function Home() {
   return (
@@ -7,6 +6,7 @@ export default function Home() {
       <Hero />
       <Player />
       <Events />
+      <Albums />
       <div className="h-[4000px]"></div>
     </main>
   );
