@@ -1,4 +1,4 @@
-import { Hero, Player, Events, Albums } from "@/components";
+import { Hero, Player, Events, Albums, Blog } from "@/components";
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <Player />
       <Events />
       <Albums />
+      <Blog />
       <div className="h-[4000px]"></div>
     </main>
   );

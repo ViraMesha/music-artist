@@ -309,6 +309,10 @@ export const navLinks = [
     name: "Discography",
   },
   {
+    path: "blog",
+    name: "Blog",
+  },
+  {
     path: "contact",
     name: "Contact",
   },
