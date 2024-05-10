@@ -12,3 +12,4 @@ export { AlbumSlider } from "./albums/AlbumSlider";
 export { Events } from "./events/Events";
 export { Blog } from "./blog/Blog";
 export { PostList } from "./blog/PostList";
+export { Newsletter } from "./Newsletter";

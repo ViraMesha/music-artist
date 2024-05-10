@@ -27,7 +27,7 @@ export const Nav = ({ containerStyles, linkStyles }: Props) => {
             className={`${linkStyles} cursor-pointer border-b-2 border-transparent`}
             smooth={!isDesktop ? false : true}
             spy
-            offset={-50}
+            offset={-20}
             activeClass="active"
             onClick={toggleMenuOpen}
           >

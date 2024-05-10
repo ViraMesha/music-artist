@@ -9,7 +9,7 @@ type Props = {
 
 export const SectionHeader = ({ preTitle, title }: Props) => {
   return (
-    <header className="mb-8 capitalize">
+    <header className="mb-8">
       <motion.h3
         variants={fadeIn("up", 0.2)}
         initial="hidden"
